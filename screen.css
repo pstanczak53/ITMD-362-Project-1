@@ -500,21 +500,18 @@ template {
 /* Peter 
    ========================================================================== */
 
+
+
    
    .container {
   max-width: 960px;
   margin: 0 auto;
   background-color: #F4D03F;
   border: .25em solid #2C3E50;
-  max-width:960px;
+  
   margin:0 auto;
-  font-family: 'Times New Roman', sans-serif;
-  
-  
-  
+  font-family: 'Times New Roman', sans-serif;  
 }
-
-
 
 
 .head1{
@@ -554,5 +551,20 @@ form {
   .container {
   max-width: 960px;
   margin: 0 auto;
+  
+ 
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 960;
+		padding:30px;
+		border: 2px;
+		
+		
+		
+		
+		
+}
   
   
