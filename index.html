@@ -22,26 +22,31 @@
 		<h2 class="head2">Please Subscribe to recieve news about the latest product </H2>
 	<form action="#null" method="get" autocomplete="on" onsubmit="myForm();">
 	    
+	    <fieldset>
+	    <p><label> First Name </label></p>
+		<input type="text" id="firstName" placeholder=" First Name" name= "First Name" required autocomplete="name">
+		
+		
+		<p><label> Last Name </label></p>
+		<input type="text" id="lastName" placeholder=" Last Name" name="Last Name" required autocomplete= "name">
+		
 	
-	    <p><label> First Name <input type="text" name="First_Name" placeholder=" First Name" required autocomplete= "First_Name"></label>
-		</p>
+		<p><label> Email Address </label></p>
+		<input type="text"  id="email" placeholder=" e-mail@gmail.com" name="email_field" required autocomplete= "name">
 		
-		<p><label> Last Name <input type="text" name="Last_Name" placeholder=" Last Name" required autocomplete= "Last_Name"></label>
-		</p>
-	
-		<p><label> Email Address <input type="text" name="email_field" placeholder=" e-mail@gmail.com" required autocomplete= "e-mail"></label>
-		</p>
 		
-		<p><label> Phone Nr <input type="text" name="phone_field" placeholder=" 000-000-0000 " required autocomplete= "phone_field"></label>
-        </p>
+		<p><label> Phone Nr </label></p>
+		<input type="text" id="phone"  placeholder=" 000-000-0000 " name="phone_field" required autocomplete= "name">
+        
 		
-		<p><label> Date of Birth <input type="text" placeholder=" mm/dd/yyyy " required autocomplete= "birthday"></label>
-		</p>
+		<p><label> Date of Birth</label></p>
+		<input type="text" id="birth" placeholder=" mm/dd/yyyy " name="birth_field" required autocomplete= "name">
+		
 		
 		<p class="button">
 			<input type="submit" value="Submit">
 		</p>
-   
+        </fieldset>
      
 	</form>
 	
